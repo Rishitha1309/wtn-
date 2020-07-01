@@ -1,0 +1,13 @@
+import java.io.*;
+import java.util.*;
+class UserMainCode
+{
+public int nFactorial(int input1){
+int i ,fact=1;
+for(i=1;i<=input1;i++)
+{
+fact=fact*i;
+}
+return fact;
+}
+}
