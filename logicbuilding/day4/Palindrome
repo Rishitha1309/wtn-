@@ -1,0 +1,23 @@
+import java.io.*;
+import java.util.*;
+class UserMainCode
+{
+public int isPalinNum(int input1){
+int temp,r,rev;
+temp=input1;
+while(input1>0)
+{
+r=input1%10;
+rev=(rev*10)+r;
+input1=input1?10;
+}
+if(temp==rev)
+{
+return 2;
+}
+else
+{
+return 1;
+}
+}
+}
