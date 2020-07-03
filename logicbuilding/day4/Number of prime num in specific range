@@ -1,6 +1,6 @@
 import java.io.*;
 import java.util.*;
-class MainUserCode
+class UserMainCode
 
 {
 public int countPrimesInRange(int input1,int input2)
